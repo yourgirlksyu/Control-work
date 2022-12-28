@@ -1,0 +1,77 @@
+.header
+    background: url('../img/headerBG.png') no-repeat left top
+    &__block1
+        display: flex
+        justify-content: center
+        align-items: center
+        padding-top: 11px
+        padding-bottom: 40px
+    &__link
+        font-weight: 700
+        font-size: 18px
+        line-height: 20px
+        color: $white
+        text-decoration: none
+        margin-right: 118px
+    &__nav
+        margin-right: 290px
+        &--item
+            font-size: 18px
+            line-height: 22px
+            color: $white
+            font-weight: 500
+            margin-right: 55px
+            text-decoration: none
+            &:last-child
+                margin-right: 0
+    &__sign
+        display: flex
+        align-items: center
+        &--search
+            margin-right: 45px
+        &--btn
+            font-weight: 500
+            font-size: 15px
+            text-decoration: none
+            color: $white
+            background: $yellow
+            padding: 6px 16px
+            border-radius: 25px
+    &__block2
+        display: flex
+        justify-content: space-between
+        padding-bottom: 25px
+        &--img
+            margin-top: 25px
+    &__title
+        font-weight: 700
+        font-size: 64px
+        color: $white
+        margin-bottom: 28px
+    &__titles
+        padding-top: 144px
+        &--btn
+            font-size: 15px
+            line-height: 18px
+            color: $white
+            background: $yellow
+            padding: 10px 44px 10px 22px
+            position: relative
+            text-decoration: none
+            border-radius: 25px
+            &::after
+                content: ''
+                background: url('../img/ArrowRight1.svg') no-repeat center
+                position: absolute
+                width: 14px
+                height: 14px
+                top: 13px
+                right: 15px
+    &__text
+        font-size: 18px
+        line-height: 22px
+        color: $white
+        max-width: 613px
+        width: 100%
+        margin-bottom: 34px
+    
